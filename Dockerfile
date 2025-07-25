@@ -16,3 +16,4 @@ EXPOSE 8100
 
 # Command to run the API
 CMD ["uvicorn", "title_similarity_service:app", "--host", "0.0.0.0", "--port", "8100"]
+

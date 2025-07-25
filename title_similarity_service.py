@@ -23,3 +23,4 @@ async def title_similarity(data: SimilarityRequest):
         "max_score": max_score,
         "all_scores": dict(zip(data.candidate_titles, similarities))
     }
+
